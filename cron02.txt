@@ -1,0 +1,2089 @@
+Server Time: Thu, 27 Apr 2023 09:21:29 -0400
+
+
+Execute scheduled task: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+... started 09:21:29. Current memory use 26.6 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.036715984344482 seconds
+Scheduled task complete: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+Execute scheduled task: Object status report generator task (tool_objectfs\task\generate_status_report)
+... started 09:21:29. Current memory use 36.3 Mo.
+... used 56 dbqueries
+... used 1423.3720519543 seconds
+Scheduled task complete: Object status report generator task (tool_objectfs\task\generate_status_report)
+Execute scheduled task: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+... started 09:45:12. Current memory use 36.4 Mo.
+delete_local_object. Total time taken: 0.11122798919678 seconds. Location change summary:
+duplicated -> remote. Objects moved: 1. Total size: 862.7 Ko. 
+... used 5 dbqueries
+... used 0.1136839389801 seconds
+Scheduled task complete: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+Execute scheduled task: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+... started 09:45:12. Current memory use 37.0 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.00073385238647461 seconds
+Scheduled task complete: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+Execute scheduled task: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+... started 09:45:12. Current memory use 37.0 Mo.
+. Total time taken: 0.077754020690918 seconds. Location change summary:
+... used 50002 dbqueries
+... used 422.84693193436 seconds
+Scheduled task complete: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+Stopping processing of scheduled tasks as time limit has been reached.
+Stopping processing of adhoc tasks as time limit has been reached.
+Ran 0 adhoc tasks found at Thu, 27 Apr 2023 09:21:29 -0400
+Cron script completed correctly
+Cron completed at 09:52:15. Memory used 61.4 Mo.
+Execution took 1846.592856 seconds
+Server Time: Thu, 27 Apr 2023 10:04:07 -0400
+
+
+Execute scheduled task: Traitement en tâche de fond des statistiques (core\task\stats_cron_task)
+... started 10:04:07. Current memory use 27.5 Mo.
+... used 0 dbqueries
+... used 0.0033650398254395 seconds
+Scheduled task complete: Traitement en tâche de fond des statistiques (core\task\stats_cron_task)
+Execute scheduled task: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+... started 10:04:07. Current memory use 28.5 Mo.
+Cleaning up stale session data from cache stores.
+... used 0 dbqueries
+... used 0.00025296211242676 seconds
+Scheduled task complete: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+Execute scheduled task: Sauvegardes automatiques (core\task\automated_backup_task)
+... started 10:04:07. Current memory use 28.5 Mo.
+Checking automated backup status...INACTIVE
+... used 0 dbqueries
+... used 0.090765953063965 seconds
+Scheduled task complete: Sauvegardes automatiques (core\task\automated_backup_task)
+Execute scheduled task: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+... started 10:04:07. Current memory use 42.4 Mo.
+... used 0 dbqueries
+... used 6.6041946411133E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+Execute scheduled task: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+... started 10:04:07. Current memory use 42.5 Mo.
+... used 0 dbqueries
+... used 6.1988830566406E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+Execute scheduled task: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+... started 10:04:07. Current memory use 42.4 Mo.
+... used 1955436 dbqueries
+... used 4888.1059441566 seconds
+Scheduled task complete: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+Stopping processing of scheduled tasks as time limit has been reached.
+Stopping processing of adhoc tasks as time limit has been reached.
+Ran 0 adhoc tasks found at Thu, 27 Apr 2023 10:04:07 -0400
+Cron script completed correctly
+Cron completed at 11:25:35. Memory used 64.2 Mo.
+Execution took 4888.448358 seconds
+Server Time: Thu, 27 Apr 2023 11:42:00 -0400
+
+
+Execute scheduled task: Supprimer les contextes échus (tool_dataprivacy\task\delete_expired_contexts)
+... started 11:42:00. Current memory use 26.7 Mo.
+Checking requirements
+  Requirements not met. Cannot process expired retentions.
+Processed deletions for 0 course contexts, and 0 user contexts as expired
+... used 0 dbqueries
+... used 0.0064048767089844 seconds
+Scheduled task complete: Supprimer les contextes échus (tool_dataprivacy\task\delete_expired_contexts)
+Execute scheduled task: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+... started 11:42:00. Current memory use 42.1 Mo.
+... used 1504 dbqueries
+... used 3.3280839920044 seconds
+Scheduled task complete: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+Execute scheduled task: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+... started 11:42:03. Current memory use 42.2 Mo.
+... used 0 dbqueries
+... used 0.0044229030609131 seconds
+Scheduled task complete: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+Execute scheduled task: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+... started 11:42:03. Current memory use 42.8 Mo.
+... used 0 dbqueries
+... used 6.5088272094727E-5 seconds
+Scheduled task complete: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+Execute scheduled task: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+... started 11:42:03. Current memory use 42.8 Mo.
+Sync cohort roles...
+Added 0
+Removed 0
+... used 3 dbqueries
+... used 0.023478984832764 seconds
+Scheduled task complete: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+Execute scheduled task: Nettoyage des contextes (core\task\context_cleanup_task)
+... started 11:42:04. Current memory use 43.4 Mo.
+ Cleaned up context instances
+... used 10 dbqueries
+... used 86.277122974396 seconds
+Scheduled task complete: Nettoyage des contextes (core\task\context_cleanup_task)
+Execute scheduled task: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+... started 11:43:30. Current memory use 43.5 Mo.
+... used 1 dbqueries
+... used 1.3949589729309 seconds
+Scheduled task complete: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+Execute scheduled task: Indexation pour recherche globale (core\task\search_index_task)
+... started 11:43:31. Current memory use 43.5 Mo.
+... used 0 dbqueries
+... used 0.0017549991607666 seconds
+Scheduled task complete: Indexation pour recherche globale (core\task\search_index_task)
+Execute scheduled task: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+... started 11:43:31. Current memory use 43.7 Mo.
+... used 3 dbqueries
+... used 0.0063772201538086 seconds
+Scheduled task complete: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+Execute scheduled task: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+... started 11:43:31. Current memory use 43.9 Mo.
+[tool_recyclebin] Deleting item '265335' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265336' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265337' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265338' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265339' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265340' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265341' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265342' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265343' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265344' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265345' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265346' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265347' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265348' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265349' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265350' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265351' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265352' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265353' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265354' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265355' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265356' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265357' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265358' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265359' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265360' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265361' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265362' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265363' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265364' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265365' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265366' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265367' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265368' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265369' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265370' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265371' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265372' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265373' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265374' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265375' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265376' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265377' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265378' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265379' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265380' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265381' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265382' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265383' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265384' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265385' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265386' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265387' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265388' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265389' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265390' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265391' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265392' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265393' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265394' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265395' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265396' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265397' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265398' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265399' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265400' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265401' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265402' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265403' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265404' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265405' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265406' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265407' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265408' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265409' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265410' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265411' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265412' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265413' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265414' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265415' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265416' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265417' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265418' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265419' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265420' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265421' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265422' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265423' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265424' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265425' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265426' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265427' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265428' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265429' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265430' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265431' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265432' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265433' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265434' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265435' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265436' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265437' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265438' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265439' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265440' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265441' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265442' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265443' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265444' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265445' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265446' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265447' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265448' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265449' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265450' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265451' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265452' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265453' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265454' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265455' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265456' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265457' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265458' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265459' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265460' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265461' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265462' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265463' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265464' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265465' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265466' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265467' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265468' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265469' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265470' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265471' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265472' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265473' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265474' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265475' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265476' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265477' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265478' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265479' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265480' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265481' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265482' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265483' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265484' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265485' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265486' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265487' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265488' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265489' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265490' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265491' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265492' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265493' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265494' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265495' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265496' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265497' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265498' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265499' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265500' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265501' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265502' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265503' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265504' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265505' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265506' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265507' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265508' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265509' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265510' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265511' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265512' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265513' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265514' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265515' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265516' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265517' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265518' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265519' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265520' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265521' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265522' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265523' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265524' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265525' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265526' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265527' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265528' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265529' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265530' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265531' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265532' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265533' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265534' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265535' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265536' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265537' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265538' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265539' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265540' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265541' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265542' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265543' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265544' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265545' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265546' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265547' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265548' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265549' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265550' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265551' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265552' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265553' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265554' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265555' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265556' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265557' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265558' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265559' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265560' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265561' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265562' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265563' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265564' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265565' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265566' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265567' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265568' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265569' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265570' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265571' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265572' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265573' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265574' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265575' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265576' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265577' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265578' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265579' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265580' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265581' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265582' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265583' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265584' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265585' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265586' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265587' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265588' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265589' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265590' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265591' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265592' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265593' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265594' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265595' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265596' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265597' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265598' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265599' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265600' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265601' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265602' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265603' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265604' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265605' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265606' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265607' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265608' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265609' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265610' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265611' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265612' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265613' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265614' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265615' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265616' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265617' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265618' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265619' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265620' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265621' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265622' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265623' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265624' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265625' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265626' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265627' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265628' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265629' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265630' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265631' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265632' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265633' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265634' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265635' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265636' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265637' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265638' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265639' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265640' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265641' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265642' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265643' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265644' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265645' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265646' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265647' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265648' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265649' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265650' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265651' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265652' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265653' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265654' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265655' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265656' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265657' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265658' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265659' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265660' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265661' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265662' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265663' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265664' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265665' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265666' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265667' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265668' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265669' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265670' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265671' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265672' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265673' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265674' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265675' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265676' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265677' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265678' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265679' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265680' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265681' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265682' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265683' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265684' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265685' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265686' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265687' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265688' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265689' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265690' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265691' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265692' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265693' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265694' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265695' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265696' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265697' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265698' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265699' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265700' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265701' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265702' from the course recycle bin ...
+... used 3421 dbqueries
+... used 15.866051197052 seconds
+Scheduled task complete: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+Execute scheduled task: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+... started 11:43:47. Current memory use 66.0 Mo.
+[tool_recyclebin] Deleting item '2816' from the category recycle bin ...
+... used 12 dbqueries
+... used 0.044610023498535 seconds
+Scheduled task complete: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+Execute scheduled task: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+... started 11:43:47. Current memory use 66.1 Mo.
+... used 5 dbqueries
+... used 57.278345108032 seconds
+Scheduled task complete: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+Execute scheduled task: Délivrer des badges (core\task\badges_cron_task)
+... started 11:44:45. Current memory use 66.6 Mo.
+Started reviewing available badges.
+Processing badge "Autre image"...
+...badge was issued to 0 users.
+Processing badge "J'ai créé une capsule vidéo"...
+...badge was issued to 0 users.
+Processing badge "J'aime les QCM"...
+...badge was issued to 0 users.
+Processing badge "FAQ-Bonne réponse"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance du contenu et du fonctionnement du cours"...
+...badge was issued to 0 users.
+Processing badge "Situer la pertinence du cours au regard de la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance et expérimenter les stratégies en matière de recherche d’information"...
+...badge was issued to 0 users.
+Processing badge "Discerner les constituantes principales du processus de développement d’un projet de recherche"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les différents types de recherche"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés et valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Remise de la partie A du travail #1"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les constituantes principales des méthodologies propres à la recherche en éducation"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés, valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Reconnaître les facteurs favorisant l’utilisation des résultats de recherche dans les milieux de pratique"...
+...badge was issued to 0 users.
+Processing badge "Évaluation de lenseignement"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance de résultats de recherche et déterminer leur pertinence pour la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Réussir le premier test"...
+...badge was issued to 0 users.
+Processing badge "Présenter les résultats d'une analyse du besoin de formation"...
+...badge was issued to 0 users.
+Processing badge "Rapport ou vidéo de synthèse"...
+...badge was issued to 0 users.
+Processing badge "J'ai évalué les effets d'une formation"...
+...badge was issued to 0 users.
+Processing badge "Badge Formation auxiliaires d'enseignement à l'UQAM"...
+...badge was issued to 0 users.
+Processing badge "Réseautage"...
+...badge was issued to 0 users.
+Processing badge "RéseautageDSR5100"...
+...badge was issued to 0 users.
+Processing badge "Chercher et questionner les concepts"...
+...badge was issued to 0 users.
+Processing badge "Recourir aux textes et analyser les passages"...
+...badge was issued to 0 users.
+Badges were issued 0 time(s).
+... used 886 dbqueries
+... used 1.893504858017 seconds
+Scheduled task complete: Délivrer des badges (core\task\badges_cron_task)
+Execute scheduled task: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+... started 11:44:47. Current memory use 68.4 Mo.
+Updating scorm packages which require daily update
+... used 4 dbqueries
+... used 0.015044927597046 seconds
+Scheduled task complete: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+Execute scheduled task: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+... started 11:44:47. Current memory use 68.7 Mo.
+Verifying manual enrolment expiration...
+...manual enrolment updates finished.
+... used 0 dbqueries
+... used 0.00015020370483398 seconds
+Scheduled task complete: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+Execute scheduled task: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+... started 11:44:47. Current memory use 68.7 Mo.
+Processing manual enrolment expiration notifications...
+...notification processing finished.
+... used 3 dbqueries
+... used 0.17802095413208 seconds
+Scheduled task complete: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+Execute scheduled task: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+... started 11:44:47. Current memory use 68.7 Mo.
+Sending scheduled badge notifications.
+... used 3 dbqueries
+... used 0.0082688331604004 seconds
+Scheduled task complete: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+Execute scheduled task: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+... started 11:44:47. Current memory use 68.9 Mo.
+... used 106 dbqueries
+... used 0.86285400390625 seconds
+Scheduled task complete: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+Execute scheduled task: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+... started 11:44:48. Current memory use 71.3 Mo.
+
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.salledepresse.uqam.ca/opinions-dexperts.feed ok
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://www.lapresse.ca/arts/rss ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.cndp.fr/index.php?id=2&type=100 Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.peopleforeducation.ca/feed/?post_type=document&document-type=report ok
+    http://pol4840.uqam.ca/?feed=rss Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://www.club-passion-chocolat.fr/rss/all.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.club-passion-chocolat.fr/rss/all.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.economie.gouv.qc.ca/rss/exportation.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://propossurlemonde.blogspot.com/feeds/posts/default ok
+    http://www.futura-sciences.com/rss/actualites.xml ok
+    http://www.lapresse.ca/rss/178.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.ledevoir.com/rss/section/societe/ethique-et-religion.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.journaldemontreal.com/actualite/societe/rss.xml ok
+    http://www.lemonde.fr/m-actu/rss_full.xml ok
+    http://www.portailrh.org/RSS/5092.aspx Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.portailrh.org/RSS/5121.aspx Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.portailrh.org/RSS/5169.aspx Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://www.canlii.org/fr/ca/casa/rss_new.xml ok
+    http://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=ccma&type=axatoc&feed=rss ok
+    http://www.inderscience.com/rss/rss.php ok
+    http://blog.thtconsulting.com/rss/ Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://www.ledevoir.com/rss/section/culture.xml ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.economie.gouv.qc.ca/rss/exportation.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    http://radiofrance-podcast.net/podcast09/rss_11549.xml ok
+    http://feeds.feedburner.com/veilletourisme?format=xml ok
+    http://feed.exileed.com/twitter/feed/LaFab Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://carrefour-education.qc.ca/rss-ressources.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml Error: could not load/find the RSS feed - skipping for 43200 seconds.
+    https://www.notre-planete.info/news/news.xml ok
+    https://www.mediaterre.org/canada-quebec/xml/home.xml ok
+    https://reporterre.net/spip.php?page=backend-simple ok
+    https://www.anthropocenes.net/feed/articles/ ok
+    https://ici.radio-canada.ca/rss/4167 ok
+24 feeds refreshed (took 77.017344 seconds)
+... used 22 dbqueries
+... used 77.022218942642 seconds
+Scheduled task complete: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+Execute scheduled task: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+... started 11:46:05. Current memory use 72.9 Mo.
+L'analyse de données est désactivée. Vous pouvez activer cette fonctionnalité dans « Administration du site > Fonctions avancées ».
+... used 0 dbqueries
+... used 0.0010221004486084 seconds
+Scheduled task complete: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+Execute scheduled task: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+... started 11:46:05. Current memory use 73.0 Mo.
+... used 3608 dbqueries
+... used 14.660659074783 seconds
+Scheduled task complete: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+Execute scheduled task: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+... started 11:46:20. Current memory use 73.6 Mo.
+... used 1 dbqueries
+... used 0.003842830657959 seconds
+Scheduled task complete: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+Execute scheduled task: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+... started 11:46:20. Current memory use 73.6 Mo.
+... used 0 dbqueries
+... used 6.5088272094727E-5 seconds
+Scheduled task complete: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+Execute scheduled task: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+... started 11:46:20. Current memory use 73.6 Mo.
+Running auth crons if required...
+Running enrol crons if required...
+Starting activity modules
+Finished activity modules
+Starting blocks
+Finished blocks
+Starting admin reports
+Finished admin reports
+Starting course reports
+Finished course reports
+Starting gradebook plugins
+Finished gradebook plugins
+Starting admin tools
+Processing cron function for tool_objectfs...
+... started 11:46:20. Current memory use 73.7 Mo.
+RUNNING legacy cron objectfs
+done. (0 dbqueries, 0 seconds)
+Finished admin tools
+... used 5 dbqueries
+... used 0.0088250637054443 seconds
+Scheduled task complete: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+Execute scheduled task: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+... started 11:46:20. Current memory use 73.7 Mo.
+... used 2 dbqueries
+... used 0.044702053070068 seconds
+Scheduled task complete: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+Execute scheduled task: Calcul des données d'achèvement (core\task\completion_regular_task)
+... started 11:46:20. Current memory use 73.7 Mo.
+Running completion_criteria_date->cron()
+Running completion_criteria_activity->cron()
+Running completion_criteria_duration->cron()
+Running completion_criteria_grade->cron()
+Running completion_criteria_course->cron()
+Aggregating completions
+... used 6 dbqueries
+... used 1.6977038383484 seconds
+Scheduled task complete: Calcul des données d'achèvement (core\task\completion_regular_task)
+Execute scheduled task: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+... started 11:46:21. Current memory use 73.9 Mo.
+... used 159 dbqueries
+... used 0.35189199447632 seconds
+Scheduled task complete: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+Execute scheduled task: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+... started 11:46:22. Current memory use 73.9 Mo.
+... used 0 dbqueries
+... used 0.00010013580322266 seconds
+Scheduled task complete: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+Execute scheduled task: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+... started 11:46:22. Current memory use 73.9 Mo.
+Updating calendar subscription GOOGLE in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription Portail étudaint in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription Calendrier Google  in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription School in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription Cours in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+... used 32 dbqueries
+... used 1.0502400398254 seconds
+Scheduled task complete: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+Execute scheduled task: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+... started 11:46:23. Current memory use 74.4 Mo.
+
+  Cleaning up old question previews...done.
+... used 15 dbqueries
+... used 1.1824049949646 seconds
+Scheduled task complete: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+Execute scheduled task: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+... started 11:46:24. Current memory use 76.2 Mo.
+Removing old digest records from 7 days ago.
+Removed all old digest records.
+Fetching unmailed posts.
+Done
+Processing post information
+Processed 7 posts
+Filling caches
+  Filling course cache
+  Done
+  Filling forum cache
+  Done
+  Filling discussion cache
+  Done
+  Filling user subscription cache
+  Done
+  Filling digest cache
+  Done
+All caches filled
+Queueing user tasks.
+  Processing 135 users
+    Queued 0 digests and 2 messages for 246103
+    Queued 0 digests and 0 messages for 15497
+    Queued 0 digests and 1 messages for 269088
+    Queued 0 digests and 2 messages for 268611
+    Queued 0 digests and 1 messages for 148541
+    Queued 0 digests and 1 messages for 328188
+    Queued 0 digests and 1 messages for 14432
+    Queued 0 digests and 1 messages for 330342
+    Queued 0 digests and 3 messages for 268110
+    Queued 0 digests and 2 messages for 335907
+    Queued 0 digests and 1 messages for 331388
+    Queued 0 digests and 2 messages for 238327
+    Queued 0 digests and 2 messages for 341292
+    Queued 0 digests and 1 messages for 10070
+    Queued 0 digests and 2 messages for 337369
+    Queued 0 digests and 2 messages for 331501
+    Queued 0 digests and 3 messages for 15002
+    Queued 0 digests and 2 messages for 59888
+    Queued 0 digests and 1 messages for 333595
+    Queued 0 digests and 1 messages for 272723
+    Queued 0 digests and 1 messages for 272961
+    Queued 0 digests and 1 messages for 333955
+    Queued 0 digests and 1 messages for 30562
+    Queued 0 digests and 1 messages for 336677
+    Queued 0 digests and 1 messages for 57146
+    Queued 0 digests and 1 messages for 331355
+    Queued 0 digests and 1 messages for 341412
+    Queued 0 digests and 1 messages for 312913
+    Queued 0 digests and 2 messages for 332891
+    Queued 0 digests and 1 messages for 335493
+    Queued 0 digests and 1 messages for 336271
+    Queued 0 digests and 1 messages for 346063
+    Queued 0 digests and 1 messages for 320742
+    Queued 0 digests and 1 messages for 341801
+    Queued 0 digests and 1 messages for 329498
+    Queued 0 digests and 1 messages for 283982
+    Queued 0 digests and 1 messages for 321179
+    Queued 0 digests and 1 messages for 311552
+    Queued 0 digests and 1 messages for 340848
+    Queued 0 digests and 1 messages for 334066
+    Queued 0 digests and 1 messages for 339898
+    Queued 0 digests and 1 messages for 340306
+    Queued 0 digests and 1 messages for 341582
+    Queued 0 digests and 1 messages for 321265
+    Queued 0 digests and 1 messages for 342063
+    Queued 0 digests and 1 messages for 312643
+    Queued 0 digests and 1 messages for 216816
+    Queued 0 digests and 1 messages for 341225
+    Queued 0 digests and 1 messages for 343238
+    Queued 0 digests and 1 messages for 344922
+    Queued 0 digests and 1 messages for 341974
+    Queued 0 digests and 1 messages for 316127
+    Queued 0 digests and 1 messages for 341192
+    Queued 0 digests and 1 messages for 344579
+    Queued 0 digests and 1 messages for 343129
+    Queued 0 digests and 1 messages for 342050
+    Queued 0 digests and 1 messages for 342024
+    Queued 0 digests and 1 messages for 321683
+    Queued 0 digests and 1 messages for 304939
+    Queued 0 digests and 1 messages for 350987
+    Queued 0 digests and 1 messages for 232547
+    Queued 0 digests and 1 messages for 155784
+    Queued 0 digests and 1 messages for 237043
+    Queued 0 digests and 1 messages for 341663
+    Queued 0 digests and 1 messages for 17053
+    Queued 0 digests and 1 messages for 329213
+    Queued 0 digests and 1 messages for 317141
+    Queued 0 digests and 1 messages for 55278
+    Queued 0 digests and 1 messages for 341626
+    Queued 0 digests and 1 messages for 338463
+    Queued 0 digests and 1 messages for 246522
+    Queued 0 digests and 1 messages for 334289
+    Queued 0 digests and 1 messages for 345086
+    Queued 0 digests and 1 messages for 342801
+    Queued 0 digests and 1 messages for 160866
+    Queued 0 digests and 1 messages for 350029
+    Queued 0 digests and 1 messages for 343315
+    Queued 0 digests and 1 messages for 341221
+    Queued 0 digests and 1 messages for 13415
+    Queued 0 digests and 1 messages for 5920
+    Queued 0 digests and 1 messages for 279859
+    Queued 0 digests and 1 messages for 334549
+    Queued 0 digests and 1 messages for 347055
+    Queued 0 digests and 1 messages for 124157
+    Queued 0 digests and 1 messages for 293161
+    Queued 0 digests and 1 messages for 344364
+    Queued 0 digests and 1 messages for 346600
+    Queued 0 digests and 1 messages for 299049
+    Queued 0 digests and 1 messages for 341783
+    Queued 0 digests and 1 messages for 119959
+    Queued 0 digests and 1 messages for 227622
+    Queued 0 digests and 1 messages for 341867
+    Queued 0 digests and 1 messages for 327668
+    Queued 0 digests and 1 messages for 345092
+    Queued 0 digests and 1 messages for 307890
+    Queued 0 digests and 1 messages for 343426
+    Queued 0 digests and 1 messages for 341345
+    Queued 0 digests and 1 messages for 38336
+    Queued 0 digests and 1 messages for 343112
+    Queued 0 digests and 1 messages for 341525
+    Queued 0 digests and 1 messages for 146115
+    Queued 0 digests and 1 messages for 341000
+    Queued 0 digests and 1 messages for 94979
+    Queued 0 digests and 1 messages for 340556
+    Queued 0 digests and 1 messages for 332685
+    Queued 0 digests and 1 messages for 352114
+    Queued 0 digests and 1 messages for 157046
+    Queued 0 digests and 1 messages for 346293
+    Queued 0 digests and 1 messages for 122523
+    Queued 0 digests and 1 messages for 118032
+    Queued 0 digests and 1 messages for 318198
+    Queued 0 digests and 1 messages for 319939
+    Queued 0 digests and 1 messages for 348458
+    Queued 0 digests and 1 messages for 59786
+    Queued 0 digests and 1 messages for 340095
+    Queued 0 digests and 1 messages for 264388
+    Queued 0 digests and 1 messages for 316657
+    Queued 0 digests and 1 messages for 117856
+    Queued 0 digests and 1 messages for 313813
+    Queued 0 digests and 1 messages for 337065
+    Queued 0 digests and 1 messages for 27607
+    Queued 0 digests and 1 messages for 97370
+    Queued 0 digests and 1 messages for 321271
+    Queued 0 digests and 1 messages for 281583
+    Queued 0 digests and 1 messages for 112149
+    Queued 0 digests and 1 messages for 120955
+    Queued 0 digests and 1 messages for 309206
+    Queued 0 digests and 1 messages for 320973
+    Queued 0 digests and 1 messages for 321147
+    Queued 0 digests and 1 messages for 320960
+    Queued 0 digests and 1 messages for 118089
+    Queued 0 digests and 1 messages for 214561
+    Queued 0 digests and 1 messages for 321291
+    Queued 0 digests and 1 messages for 338620
+    Queued 0 digests and 1 messages for 311491
+  Queued 0 digests, and 134 individual tasks for 147 post mails. Unique users: 134 (1 ignored)
+All tasks queued.
+... used 1001 dbqueries
+... used 1.5362401008606 seconds
+Scheduled task complete: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+Execute scheduled task: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+... started 11:46:26. Current memory use 85.3 Mo.
+Inbound Message not fully configured - exiting early.
+... used 0 dbqueries
+... used 0.0018129348754883 seconds
+Scheduled task complete: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+Execute scheduled task: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+... started 11:46:26. Current memory use 85.5 Mo.
+... used 0 dbqueries
+... used 7.6055526733398E-5 seconds
+Scheduled task complete: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+Execute scheduled task: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+... started 11:46:26. Current memory use 85.5 Mo.
+
+  Cleaning up old question statistics cache records...done.
+... used 4 dbqueries
+... used 2.4691889286041 seconds
+Scheduled task complete: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+Execute scheduled task: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+... started 11:46:28. Current memory use 85.5 Mo.
+... used 1828 dbqueries
+... used 543.7012488842 seconds
+Scheduled task complete: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+... started 11:55:32. Current memory use 85.8 Mo.
+... used 4 dbqueries
+... used 23.657831192017 seconds
+Scheduled task complete: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+Execute scheduled task: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+... started 11:55:56. Current memory use 86.6 Mo.
+  Looking for quiz overdue quiz attempts...
+  Considered 242 attempts in 15 quizzes.
+... used 29736 dbqueries
+... used 30.618389129639 seconds
+Scheduled task complete: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+Execute scheduled task: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+... started 11:56:26. Current memory use 92.5 Mo.
+... used 0 dbqueries
+... used 0.00013518333435059 seconds
+Scheduled task complete: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+Execute scheduled task: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+... started 11:56:26. Current memory use 92.5 Mo.
+... used 0 dbqueries
+... used 9.8943710327148E-5 seconds
+Scheduled task complete: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+Execute scheduled task: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+... started 11:56:27. Current memory use 92.5 Mo.
+ processing workshop subplugins ...
+... used 1 dbqueries
+... used 0.16153216362 seconds
+Scheduled task complete: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+Execute scheduled task: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+... started 11:56:27. Current memory use 92.5 Mo.
+... used 0 dbqueries
+... used 0.00012397766113281 seconds
+Scheduled task complete: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+Execute scheduled task: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+... started 11:56:27. Current memory use 92.7 Mo.
+... used 2 dbqueries
+... used 0.0084049701690674 seconds
+Scheduled task complete: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+... started 11:56:27. Current memory use 92.5 Mo.
+... no workshops awaiting scheduled allocation. ... used 1 dbqueries
+... used 0.017421007156372 seconds
+Scheduled task complete: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+Execute scheduled task: Synchronisation des blogs externes (core\task\blog_cron_task)
+... started 11:56:27. Current memory use 92.6 Mo.
+... used 125 dbqueries
+... used 11.950134992599 seconds
+Scheduled task complete: Synchronisation des blogs externes (core\task\blog_cron_task)
+Execute scheduled task: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+... started 11:56:39. Current memory use 95.9 Mo.
+... used 1 dbqueries
+... used 0.0023748874664307 seconds
+Scheduled task complete: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+Execute scheduled task: Background processing for journal module (mod_journal\task\cron_task)
+... started 11:56:39. Current memory use 93.8 Mo.
+... used 1 dbqueries
+... used 1.7473299503326 seconds
+Scheduled task complete: Background processing for journal module (mod_journal\task\cron_task)
+Execute scheduled task: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+... started 11:56:41. Current memory use 93.8 Mo.
+Looking for quiz attempts which may need a graded notification sent...
+... used 1 dbqueries
+... used 3.3260579109192 seconds
+Scheduled task complete: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+Execute scheduled task: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+... started 11:56:44. Current memory use 93.8 Mo.
+... used 2 dbqueries
+... used 0.0070819854736328 seconds
+Scheduled task complete: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+Execute scheduled task: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+... started 11:56:44. Current memory use 94.0 Mo.
+... used 3 dbqueries
+... used 0.004044771194458 seconds
+Scheduled task complete: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+Execute scheduled task: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+... started 11:56:44. Current memory use 94.0 Mo.
+... used 3 dbqueries
+... used 0.0055789947509766 seconds
+Scheduled task complete: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+Execute scheduled task: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+... started 11:56:44. Current memory use 93.5 Mo.
+No TTL caches assigned to a Redis store; nothing to do.
+... used 0 dbqueries
+... used 8.2015991210938E-5 seconds
+Scheduled task complete: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+Execute scheduled task: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+... started 11:56:44. Current memory use 93.5 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.0083818435668945 seconds
+Scheduled task complete: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+Execute scheduled task: Object status report generator task (tool_objectfs\task\generate_status_report)
+... started 11:56:44. Current memory use 93.6 Mo.
+... used 54 dbqueries
+... used 1430.9547269344 seconds
+Scheduled task complete: Object status report generator task (tool_objectfs\task\generate_status_report)
+Stopping processing of scheduled tasks as time limit has been reached.
+Stopping processing of adhoc tasks as time limit has been reached.
+Ran 0 adhoc tasks found at Thu, 27 Apr 2023 11:42:00 -0400
+Cron script completed correctly
+Cron completed at 12:20:35. Memory used 93.6 Mo.
+Execution took 2315.280391 seconds
+Server Time: Thu, 27 Apr 2023 13:23:33 -0400
+
+
+Execute scheduled task: Object file system orphan objects task (tool_objectfs\task\orphan_objects)
+... started 13:23:33. Current memory use 26.6 Mo.
+. Total time taken: 0.011813879013062 seconds. Location change summary:
+... used 4 dbqueries
+... used 0.10288596153259 seconds
+Scheduled task complete: Object file system orphan objects task (tool_objectfs\task\orphan_objects)
+Execute scheduled task: Object error recovery task (tool_objectfs\task\recover_error_objects)
+... started 13:23:33. Current memory use 36.3 Mo.
+. Total time taken: 0.073904991149902 seconds. Location change summary:
+... used 5 dbqueries
+... used 0.077728986740112 seconds
+Scheduled task complete: Object error recovery task (tool_objectfs\task\recover_error_objects)
+Execute scheduled task: Nettoyage des journaux des tâches (core\task\task_log_cleanup_task)
+... started 13:23:33. Current memory use 37.4 Mo.
+... used 255 dbqueries
+... used 2.8939628601074 seconds
+Scheduled task complete: Nettoyage des journaux des tâches (core\task\task_log_cleanup_task)
+Execute scheduled task: Optimisation de l'index de recherche globale (core\task\search_optimize_task)
+... started 13:23:36. Current memory use 37.4 Mo.
+... used 0 dbqueries
+... used 0.001554012298584 seconds
+Scheduled task complete: Optimisation de l'index de recherche globale (core\task\search_optimize_task)
+Execute scheduled task: Nettoyage du questionnaire (mod_questionnaire\task\cleanup)
+... started 13:23:36. Current memory use 37.7 Mo.
+... used 1 dbqueries
+... used 0.12962698936462 seconds
+Scheduled task complete: Nettoyage du questionnaire (mod_questionnaire\task\cleanup)
+Execute scheduled task: Nettoyage des tentatives de réinitialisation de mot de passe (core\task\password_reset_cleanup_task)
+... started 13:23:36. Current memory use 37.8 Mo.
+ Cleaned up old password reset records
+... used 1 dbqueries
+... used 0.0079829692840576 seconds
+Scheduled task complete: Nettoyage des tentatives de réinitialisation de mot de passe (core\task\password_reset_cleanup_task)
+Execute scheduled task: Suppression des fichiers temporaires inutilisés (core\task\file_temp_cleanup_task)
+... started 13:23:36. Current memory use 37.8 Mo.
+... used 0 dbqueries
+... used 0.00040698051452637 seconds
+Scheduled task complete: Suppression des fichiers temporaires inutilisés (core\task\file_temp_cleanup_task)
+Execute scheduled task: Nettoyage des fichiers de la corbeille (core\task\file_trash_cleanup_task)
+... started 13:23:36. Current memory use 37.8 Mo.
+Deleting old draft files... ... started 13:23:36. Current memory use 37.8 Mo.
+done.
+Deleting orphaned preview, and document conversion files... ... started 13:24:37. Current memory use 38.4 Mo.
+done.
+Cleaning up files from deleted contexts... ... started 13:25:20. Current memory use 38.4 Mo.
+done.
+Call filesystem cron tasks.... started 13:25:56. Current memory use 38.4 Mo.
+done.
+... used 26623 dbqueries
+... used 140.04945802689 seconds
+Scheduled task complete: Nettoyage des fichiers de la corbeille (core\task\file_trash_cleanup_task)
+Execute scheduled task: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+... started 13:25:56. Current memory use 38.4 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.0039927959442139 seconds
+Scheduled task complete: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+Execute scheduled task: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+... started 13:25:56. Current memory use 38.4 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.0054829120635986 seconds
+Scheduled task complete: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+Execute scheduled task: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+... started 13:25:56. Current memory use 38.5 Mo.
+. Total time taken: 0.04805588722229 seconds. Location change summary:
+... used 50002 dbqueries
+... used 421.32568001747 seconds
+Scheduled task complete: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+Execute scheduled task: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+... started 13:32:58. Current memory use 62.4 Mo.
+... used 0 dbqueries
+... used 8.1062316894531E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+Execute scheduled task: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+... started 13:32:58. Current memory use 62.4 Mo.
+... used 0 dbqueries
+... used 6.2942504882812E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+Execute scheduled task: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+... started 13:32:58. Current memory use 62.4 Mo.
+Cleaning up stale session data from cache stores.
+... used 0 dbqueries
+... used 0.00025200843811035 seconds
+Scheduled task complete: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+Execute scheduled task: Sauvegardes automatiques (core\task\automated_backup_task)
+... started 13:32:58. Current memory use 62.5 Mo.
+Checking automated backup status...INACTIVE
+... used 0 dbqueries
+... used 0.091042995452881 seconds
+Scheduled task complete: Sauvegardes automatiques (core\task\automated_backup_task)
+Execute scheduled task: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+... started 13:32:58. Current memory use 76.5 Mo.
+... used 4089 dbqueries
+... used 7.3980631828308 seconds
+Scheduled task complete: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+Execute scheduled task: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+... started 13:33:05. Current memory use 76.7 Mo.
+... used 212 dbqueries
+... used 1.081573009491 seconds
+Scheduled task complete: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+Execute scheduled task: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+... started 13:33:07. Current memory use 76.8 Mo.
+... used 0 dbqueries
+... used 0.0047318935394287 seconds
+Scheduled task complete: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+Execute scheduled task: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+... started 13:33:07. Current memory use 77.4 Mo.
+... used 0 dbqueries
+... used 7.1048736572266E-5 seconds
+Scheduled task complete: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+Execute scheduled task: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+... started 13:33:07. Current memory use 77.4 Mo.
+Sync cohort roles...
+Added 0
+Removed 0
+... used 4 dbqueries
+... used 0.023332118988037 seconds
+Scheduled task complete: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+Execute scheduled task: Nettoyage des contextes (core\task\context_cleanup_task)
+... started 13:33:07. Current memory use 78.1 Mo.
+ Cleaned up context instances
+... used 10 dbqueries
+... used 55.429328918457 seconds
+Scheduled task complete: Nettoyage des contextes (core\task\context_cleanup_task)
+Execute scheduled task: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+... started 13:34:02. Current memory use 78.1 Mo.
+... used 1 dbqueries
+... used 1.165225982666 seconds
+Scheduled task complete: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+Execute scheduled task: Indexation pour recherche globale (core\task\search_index_task)
+... started 13:34:03. Current memory use 78.1 Mo.
+... used 0 dbqueries
+... used 6.9141387939453E-5 seconds
+Scheduled task complete: Indexation pour recherche globale (core\task\search_index_task)
+Execute scheduled task: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+... started 13:34:03. Current memory use 78.1 Mo.
+... used 2 dbqueries
+... used 0.0031380653381348 seconds
+Scheduled task complete: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+Execute scheduled task: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+... started 13:34:03. Current memory use 78.2 Mo.
+[tool_recyclebin] Deleting item '265703' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265704' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265705' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265706' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265707' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265708' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265709' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265710' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265711' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265712' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265713' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265714' from the course recycle bin ...
+... used 116 dbqueries
+... used 0.72575497627258 seconds
+Scheduled task complete: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+Execute scheduled task: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+... started 13:34:04. Current memory use 78.7 Mo.
+... used 1 dbqueries
+... used 0.0034658908843994 seconds
+Scheduled task complete: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+Execute scheduled task: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+... started 13:34:04. Current memory use 78.8 Mo.
+... used 5 dbqueries
+... used 10.993259191513 seconds
+Scheduled task complete: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+Execute scheduled task: Délivrer des badges (core\task\badges_cron_task)
+... started 13:34:15. Current memory use 79.2 Mo.
+Started reviewing available badges.
+Processing badge "Autre image"...
+...badge was issued to 0 users.
+Processing badge "J'ai créé une capsule vidéo"...
+...badge was issued to 0 users.
+Processing badge "J'aime les QCM"...
+...badge was issued to 0 users.
+Processing badge "FAQ-Bonne réponse"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance du contenu et du fonctionnement du cours"...
+...badge was issued to 0 users.
+Processing badge "Situer la pertinence du cours au regard de la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance et expérimenter les stratégies en matière de recherche d’information"...
+...badge was issued to 0 users.
+Processing badge "Discerner les constituantes principales du processus de développement d’un projet de recherche"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les différents types de recherche"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés et valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Remise de la partie A du travail #1"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les constituantes principales des méthodologies propres à la recherche en éducation"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés, valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Reconnaître les facteurs favorisant l’utilisation des résultats de recherche dans les milieux de pratique"...
+...badge was issued to 0 users.
+Processing badge "Évaluation de lenseignement"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance de résultats de recherche et déterminer leur pertinence pour la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Réussir le premier test"...
+...badge was issued to 0 users.
+Processing badge "Présenter les résultats d'une analyse du besoin de formation"...
+...badge was issued to 0 users.
+Processing badge "Rapport ou vidéo de synthèse"...
+...badge was issued to 0 users.
+Processing badge "J'ai évalué les effets d'une formation"...
+...badge was issued to 0 users.
+Processing badge "Badge Formation auxiliaires d'enseignement à l'UQAM"...
+...badge was issued to 0 users.
+Processing badge "Réseautage"...
+...badge was issued to 0 users.
+Processing badge "RéseautageDSR5100"...
+...badge was issued to 0 users.
+Processing badge "Chercher et questionner les concepts"...
+...badge was issued to 0 users.
+Processing badge "Recourir aux textes et analyser les passages"...
+...badge was issued to 0 users.
+Badges were issued 0 time(s).
+... used 316 dbqueries
+... used 1.0654921531677 seconds
+Scheduled task complete: Délivrer des badges (core\task\badges_cron_task)
+Execute scheduled task: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+... started 13:34:16. Current memory use 80.7 Mo.
+... used 0 dbqueries
+... used 0.0025081634521484 seconds
+Scheduled task complete: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+Execute scheduled task: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+... started 13:34:16. Current memory use 81.0 Mo.
+Verifying manual enrolment expiration...
+...manual enrolment updates finished.
+... used 1 dbqueries
+... used 0.0014331340789795 seconds
+Scheduled task complete: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+Execute scheduled task: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+... started 13:34:16. Current memory use 81.1 Mo.
+manual enrolment expiry notifications were already sent today at jeudi 27 avril 2023, 11:44.
+... used 0 dbqueries
+... used 0.00046896934509277 seconds
+Scheduled task complete: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+Execute scheduled task: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+... started 13:34:16. Current memory use 81.1 Mo.
+Sending scheduled badge notifications.
+... used 1 dbqueries
+... used 0.00069212913513184 seconds
+Scheduled task complete: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+Execute scheduled task: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+... started 13:34:16. Current memory use 81.1 Mo.
+... used 4 dbqueries
+... used 0.57171988487244 seconds
+Scheduled task complete: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+Execute scheduled task: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+... started 13:34:17. Current memory use 81.1 Mo.
+L'analyse de données est désactivée. Vous pouvez activer cette fonctionnalité dans « Administration du site > Fonctions avancées ».
+... used 0 dbqueries
+... used 0.0010361671447754 seconds
+Scheduled task complete: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+Execute scheduled task: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+... started 13:34:17. Current memory use 80.4 Mo.
+
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss skipping until jeudi 27 avril 2023, 23:44
+    http://www.salledepresse.uqam.ca/opinions-dexperts.feed ok
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss skipping until jeudi 27 avril 2023, 23:44
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml skipping until jeudi 27 avril 2023, 23:44
+    https://www.lapresse.ca/arts/rss ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video skipping until jeudi 27 avril 2023, 23:45
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.cndp.fr/index.php?id=2&type=100 skipping until jeudi 27 avril 2023, 23:45
+    http://www.peopleforeducation.ca/feed/?post_type=document&document-type=report ok
+    http://pol4840.uqam.ca/?feed=rss skipping until jeudi 27 avril 2023, 23:45
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://www.club-passion-chocolat.fr/rss/all.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.club-passion-chocolat.fr/rss/all.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.economie.gouv.qc.ca/rss/exportation.xml skipping until jeudi 27 avril 2023, 23:45
+    http://propossurlemonde.blogspot.com/feeds/posts/default ok
+    http://www.futura-sciences.com/rss/actualites.xml ok
+    http://www.lapresse.ca/rss/178.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.ledevoir.com/rss/section/societe/ethique-et-religion.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.journaldemontreal.com/actualite/societe/rss.xml ok
+    http://www.lemonde.fr/m-actu/rss_full.xml ok
+    http://www.portailrh.org/RSS/5092.aspx skipping until jeudi 27 avril 2023, 23:45
+    http://www.portailrh.org/RSS/5121.aspx skipping until jeudi 27 avril 2023, 23:45
+    http://www.portailrh.org/RSS/5169.aspx skipping until jeudi 27 avril 2023, 23:45
+    https://www.canlii.org/fr/ca/casa/rss_new.xml ok
+    http://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=ccma&type=axatoc&feed=rss ok
+    http://www.inderscience.com/rss/rss.php ok
+    http://blog.thtconsulting.com/rss/ skipping until jeudi 27 avril 2023, 23:45
+    https://www.ledevoir.com/rss/section/culture.xml ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video skipping until jeudi 27 avril 2023, 23:45
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.economie.gouv.qc.ca/rss/exportation.xml skipping until jeudi 27 avril 2023, 23:45
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    http://radiofrance-podcast.net/podcast09/rss_11549.xml ok
+    http://feeds.feedburner.com/veilletourisme?format=xml ok
+    http://feed.exileed.com/twitter/feed/LaFab skipping until jeudi 27 avril 2023, 23:45
+    https://carrefour-education.qc.ca/rss-ressources.xml skipping until jeudi 27 avril 2023, 23:46
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml skipping until jeudi 27 avril 2023, 23:46
+    https://www.notre-planete.info/news/news.xml ok
+    https://www.mediaterre.org/canada-quebec/xml/home.xml ok
+    https://reporterre.net/spip.php?page=backend-simple ok
+    https://www.anthropocenes.net/feed/articles/ ok
+    https://ici.radio-canada.ca/rss/4167 ok
+24 feeds refreshed (took 7.505324 seconds)
+... used 1 dbqueries
+... used 7.5099430084229 seconds
+Scheduled task complete: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+Execute scheduled task: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+... started 13:34:25. Current memory use 82.0 Mo.
+... used 15 dbqueries
+... used 0.055284023284912 seconds
+Scheduled task complete: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+Execute scheduled task: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+... started 13:34:25. Current memory use 85.5 Mo.
+... used 1 dbqueries
+... used 0.0041649341583252 seconds
+Scheduled task complete: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+Execute scheduled task: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+... started 13:34:25. Current memory use 85.5 Mo.
+... used 0 dbqueries
+... used 8.2969665527344E-5 seconds
+Scheduled task complete: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+Execute scheduled task: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+... started 13:34:25. Current memory use 85.5 Mo.
+Running auth crons if required...
+Running enrol crons if required...
+Starting activity modules
+Finished activity modules
+Starting blocks
+Finished blocks
+Starting admin reports
+Finished admin reports
+Starting course reports
+Finished course reports
+Starting gradebook plugins
+Finished gradebook plugins
+Starting admin tools
+Processing cron function for tool_objectfs...
+... started 13:34:25. Current memory use 86.5 Mo.
+RUNNING legacy cron objectfs
+done. (0 dbqueries, 0 seconds)
+Finished admin tools
+... used 5 dbqueries
+... used 0.014603137969971 seconds
+Scheduled task complete: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+Execute scheduled task: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+... started 13:34:25. Current memory use 86.5 Mo.
+... used 2 dbqueries
+... used 0.0058541297912598 seconds
+Scheduled task complete: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+Execute scheduled task: Calcul des données d'achèvement (core\task\completion_regular_task)
+... started 13:34:25. Current memory use 86.5 Mo.
+Running completion_criteria_date->cron()
+Running completion_criteria_activity->cron()
+Running completion_criteria_duration->cron()
+Running completion_criteria_grade->cron()
+Running completion_criteria_course->cron()
+Aggregating completions
+... used 6 dbqueries
+... used 1.5515217781067 seconds
+Scheduled task complete: Calcul des données d'achèvement (core\task\completion_regular_task)
+Execute scheduled task: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+... started 13:34:26. Current memory use 86.8 Mo.
+... used 2 dbqueries
+... used 0.0030889511108398 seconds
+Scheduled task complete: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+Execute scheduled task: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+... started 13:34:26. Current memory use 87.0 Mo.
+... used 0 dbqueries
+... used 5.8174133300781E-5 seconds
+Scheduled task complete: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+Execute scheduled task: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+... started 13:34:26. Current memory use 87.0 Mo.
+Updating calendar subscription GOOGLE in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription Calendrier Google  in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription School in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+... used 16 dbqueries
+... used 1.3301720619202 seconds
+Scheduled task complete: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+Execute scheduled task: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+... started 13:34:28. Current memory use 87.4 Mo.
+
+  Cleaning up old question previews...done.
+... used 2 dbqueries
+... used 0.87771105766296 seconds
+Scheduled task complete: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+Execute scheduled task: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+... started 13:34:29. Current memory use 87.6 Mo.
+Removing old digest records from 7 days ago.
+Removed all old digest records.
+Fetching unmailed posts.
+  No posts found.
+... used 2 dbqueries
+... used 0.037739992141724 seconds
+Scheduled task complete: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+Execute scheduled task: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+... started 13:34:29. Current memory use 87.6 Mo.
+Inbound Message not fully configured - exiting early.
+... used 0 dbqueries
+... used 0.001194953918457 seconds
+Scheduled task complete: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+Execute scheduled task: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+... started 13:34:29. Current memory use 87.9 Mo.
+... used 0 dbqueries
+... used 6.413459777832E-5 seconds
+Scheduled task complete: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+Execute scheduled task: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+... started 13:34:29. Current memory use 87.9 Mo.
+
+  Cleaning up old question statistics cache records...done.
+... used 4 dbqueries
+... used 4.0750639438629 seconds
+Scheduled task complete: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+Execute scheduled task: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+... started 13:34:33. Current memory use 87.8 Mo.
+... used 618 dbqueries
+... used 6.9427070617676 seconds
+Scheduled task complete: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+... started 13:34:40. Current memory use 88.3 Mo.
+... used 3 dbqueries
+... used 10.335942029953 seconds
+Scheduled task complete: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+Execute scheduled task: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+... started 13:34:50. Current memory use 89.3 Mo.
+  Looking for quiz overdue quiz attempts...
+  Considered 0 attempts in 0 quizzes.
+... used 1 dbqueries
+... used 0.003331184387207 seconds
+Scheduled task complete: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+Execute scheduled task: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+... started 13:34:50. Current memory use 89.3 Mo.
+... used 0 dbqueries
+... used 9.8943710327148E-5 seconds
+Scheduled task complete: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+Execute scheduled task: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+... started 13:34:50. Current memory use 89.3 Mo.
+... used 0 dbqueries
+... used 9.2029571533203E-5 seconds
+Scheduled task complete: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+Execute scheduled task: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+... started 13:34:50. Current memory use 89.4 Mo.
+ processing workshop subplugins ...
+... used 1 dbqueries
+... used 0.14546918869019 seconds
+Scheduled task complete: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+Execute scheduled task: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+... started 13:34:51. Current memory use 89.4 Mo.
+... used 0 dbqueries
+... used 0.00011205673217773 seconds
+Scheduled task complete: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+Execute scheduled task: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+... started 13:34:51. Current memory use 89.5 Mo.
+... used 2 dbqueries
+... used 0.0086801052093506 seconds
+Scheduled task complete: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+... started 13:34:51. Current memory use 89.5 Mo.
+... no workshops awaiting scheduled allocation. ... used 1 dbqueries
+... used 0.010254859924316 seconds
+Scheduled task complete: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+Execute scheduled task: Synchronisation des blogs externes (core\task\blog_cron_task)
+... started 13:34:51. Current memory use 89.5 Mo.
+... used 4 dbqueries
+... used 10.501654148102 seconds
+Scheduled task complete: Synchronisation des blogs externes (core\task\blog_cron_task)
+Execute scheduled task: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+... started 13:35:01. Current memory use 89.9 Mo.
+... used 1 dbqueries
+... used 0.0029349327087402 seconds
+Scheduled task complete: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+Execute scheduled task: Background processing for journal module (mod_journal\task\cron_task)
+... started 13:35:01. Current memory use 90.0 Mo.
+... used 1 dbqueries
+... used 1.795520067215 seconds
+Scheduled task complete: Background processing for journal module (mod_journal\task\cron_task)
+Execute scheduled task: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+... started 13:35:03. Current memory use 90.0 Mo.
+Looking for quiz attempts which may need a graded notification sent...
+... used 1 dbqueries
+... used 3.307893037796 seconds
+Scheduled task complete: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+Execute scheduled task: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+... started 13:35:06. Current memory use 90.1 Mo.
+... used 3 dbqueries
+... used 0.0065820217132568 seconds
+Scheduled task complete: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+Execute scheduled task: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+... started 13:35:06. Current memory use 90.3 Mo.
+... used 3 dbqueries
+... used 0.003713846206665 seconds
+Scheduled task complete: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+Execute scheduled task: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+... started 13:35:07. Current memory use 90.3 Mo.
+... used 3 dbqueries
+... used 0.005903959274292 seconds
+Scheduled task complete: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+Execute scheduled task: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+... started 13:35:07. Current memory use 90.0 Mo.
+No TTL caches assigned to a Redis store; nothing to do.
+... used 0 dbqueries
+... used 8.6069107055664E-5 seconds
+Scheduled task complete: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+Execute scheduled task: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+... started 13:35:07. Current memory use 90.0 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.0086688995361328 seconds
+Scheduled task complete: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+Execute scheduled task: Object status report generator task (tool_objectfs\task\generate_status_report)
+... started 13:35:07. Current memory use 90.0 Mo.
+... used 54 dbqueries
+... used 1408.7486820221 seconds
+Scheduled task complete: Object status report generator task (tool_objectfs\task\generate_status_report)
+Stopping processing of scheduled tasks as time limit has been reached.
+Stopping processing of adhoc tasks as time limit has been reached.
+Ran 0 adhoc tasks found at Thu, 27 Apr 2023 13:23:33 -0400
+Cron script completed correctly
+Cron completed at 13:58:35. Memory used 90.0 Mo.
+Execution took 2102.639191 seconds
+Server Time: Thu, 27 Apr 2023 14:53:42 -0400
+
+
+Execute scheduled task: Supprimer les fichiers d'exportation des demandes de données échues (tool_dataprivacy\task\delete_expired_requests)
+... started 14:53:42. Current memory use 26.7 Mo.
+... used 1 dbqueries
+... used 0.013390064239502 seconds
+Scheduled task complete: Supprimer les fichiers d'exportation des demandes de données échues (tool_dataprivacy\task\delete_expired_requests)
+Execute scheduled task: Suppression des jetons d'accès échus de l'outil externe (mod_lti\task\clean_access_tokens)
+... started 14:53:42. Current memory use 28.0 Mo.
+... used 1 dbqueries
+... used 0.0064821243286133 seconds
+Scheduled task complete: Suppression des jetons d'accès échus de l'outil externe (mod_lti\task\clean_access_tokens)
+Execute scheduled task: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+... started 14:53:42. Current memory use 28.1 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.0072259902954102 seconds
+Scheduled task complete: Object file system delete local objects task (tool_objectfs\task\delete_local_objects)
+Execute scheduled task: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+... started 14:53:42. Current memory use 28.1 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.010329008102417 seconds
+Scheduled task complete: Object file system download objects task (tool_objectfs\task\pull_objects_from_storage)
+Execute scheduled task: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+... started 14:53:42. Current memory use 28.4 Mo.
+... used 0 dbqueries
+... used 5.4121017456055E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur non confirmés (core\task\delete_unconfirmed_users_task)
+Execute scheduled task: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+... started 14:53:42. Current memory use 28.4 Mo.
+... used 0 dbqueries
+... used 5.4121017456055E-5 seconds
+Scheduled task complete: Suppression des comptes utilisateur incomplets (core\task\delete_incomplete_users_task)
+Execute scheduled task: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+... started 14:53:42. Current memory use 28.5 Mo.
+Cleaning up stale session data from cache stores.
+... used 0 dbqueries
+... used 0.00022983551025391 seconds
+Scheduled task complete: Traitement en tâche de fond des caches (core\task\cache_cron_task)
+Execute scheduled task: Sauvegardes automatiques (core\task\automated_backup_task)
+... started 14:53:42. Current memory use 28.5 Mo.
+Checking automated backup status...INACTIVE
+... used 0 dbqueries
+... used 0.090970039367676 seconds
+Scheduled task complete: Sauvegardes automatiques (core\task\automated_backup_task)
+Execute scheduled task: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+... started 14:53:43. Current memory use 42.5 Mo.
+. Total time taken: 0.099418163299561 seconds. Location change summary:
+... used 50002 dbqueries
+... used 413.16348004341 seconds
+Scheduled task complete: Object file system check objects location task (tool_objectfs\task\check_objects_location)
+Execute scheduled task: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+... started 15:00:36. Current memory use 76.1 Mo.
+... used 4089 dbqueries
+... used 5.6906478404999 seconds
+Scheduled task complete: Synchronisation des méta-inscriptions (enrol_meta\task\enrol_meta_sync)
+Execute scheduled task: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+... started 15:00:42. Current memory use 76.3 Mo.
+... used 197 dbqueries
+... used 0.39405107498169 seconds
+Scheduled task complete: Nettoyage des tables, journaux et fichiers de sauvegarde (core\task\backup_cleanup_task)
+Execute scheduled task: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+... started 15:00:42. Current memory use 76.4 Mo.
+... used 0 dbqueries
+... used 0.0043160915374756 seconds
+Scheduled task complete: Achèvement des plans de formation à rendre (core\task\complete_plans_task)
+Execute scheduled task: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+... started 15:00:42. Current memory use 77.0 Mo.
+... used 0 dbqueries
+... used 6.6995620727539E-5 seconds
+Scheduled task complete: Synchronisation des plans de formation depuis les modèles de plan de cohorte (core\task\sync_plans_from_template_cohorts_task)
+Execute scheduled task: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+... started 15:00:42. Current memory use 77.0 Mo.
+Sync cohort roles...
+Added 0
+Removed 0
+... used 3 dbqueries
+... used 0.0030970573425293 seconds
+Scheduled task complete: Synchronisation des attributions de rôle (tool_cohortroles\task\cohort_role_sync)
+Execute scheduled task: Nettoyage des contextes (core\task\context_cleanup_task)
+... started 15:00:42. Current memory use 77.6 Mo.
+ Cleaned up context instances
+... used 10 dbqueries
+... used 35.089627027512 seconds
+Scheduled task complete: Nettoyage des contextes (core\task\context_cleanup_task)
+Execute scheduled task: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+... started 15:01:17. Current memory use 77.7 Mo.
+... used 1 dbqueries
+... used 0.67193698883057 seconds
+Scheduled task complete: Suppression des éléments en cache échus (core\task\cache_cleanup_task)
+Execute scheduled task: Indexation pour recherche globale (core\task\search_index_task)
+... started 15:01:18. Current memory use 77.7 Mo.
+... used 0 dbqueries
+... used 0.001708984375 seconds
+Scheduled task complete: Indexation pour recherche globale (core\task\search_index_task)
+Execute scheduled task: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+... started 15:01:18. Current memory use 77.9 Mo.
+... used 2 dbqueries
+... used 0.0030839443206787 seconds
+Scheduled task complete: Renouveler les jetons OAuth des comptes de service (core\oauth2\refresh_system_tokens_task)
+Execute scheduled task: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+... started 15:01:18. Current memory use 78.1 Mo.
+[tool_recyclebin] Deleting item '265715' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265716' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265717' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265718' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265719' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265720' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265721' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265722' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265723' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265724' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265725' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265726' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265727' from the course recycle bin ...
+[tool_recyclebin] Deleting item '265728' from the course recycle bin ...
+... used 137 dbqueries
+... used 0.76527094841003 seconds
+Scheduled task complete: Nettoyage des corbeilles de cours (tool_recyclebin\task\cleanup_course_bin)
+Execute scheduled task: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+... started 15:01:19. Current memory use 78.7 Mo.
+... used 1 dbqueries
+... used 0.0010948181152344 seconds
+Scheduled task complete: Nettoyage des corbeilles de catégorie (tool_recyclebin\task\cleanup_category_bin)
+Execute scheduled task: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+... started 15:01:19. Current memory use 78.7 Mo.
+... used 5 dbqueries
+... used 10.624174118042 seconds
+Scheduled task complete: Traitement en tâche de fond des messages (core\task\messaging_cleanup_task)
+Execute scheduled task: Délivrer des badges (core\task\badges_cron_task)
+... started 15:01:29. Current memory use 79.1 Mo.
+Started reviewing available badges.
+Processing badge "Autre image"...
+...badge was issued to 0 users.
+Processing badge "J'ai créé une capsule vidéo"...
+...badge was issued to 0 users.
+Processing badge "J'aime les QCM"...
+...badge was issued to 0 users.
+Processing badge "FAQ-Bonne réponse"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance du contenu et du fonctionnement du cours"...
+...badge was issued to 0 users.
+Processing badge "Situer la pertinence du cours au regard de la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance et expérimenter les stratégies en matière de recherche d’information"...
+...badge was issued to 0 users.
+Processing badge "Discerner les constituantes principales du processus de développement d’un projet de recherche"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les différents types de recherche"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés et valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Remise de la partie A du travail #1"...
+...badge was issued to 0 users.
+Processing badge "Distinguer les constituantes principales des méthodologies propres à la recherche en éducation"...
+...badge was issued to 0 users.
+Processing badge "Synthétiser les apprentissages réalisés, valider la compréhension des éléments de contenu abordés"...
+...badge was issued to 0 users.
+Processing badge "Reconnaître les facteurs favorisant l’utilisation des résultats de recherche dans les milieux de pratique"...
+...badge was issued to 0 users.
+Processing badge "Évaluation de lenseignement"...
+...badge was issued to 0 users.
+Processing badge "Prendre connaissance de résultats de recherche et déterminer leur pertinence pour la pratique enseignante"...
+...badge was issued to 0 users.
+Processing badge "Réussir le premier test"...
+...badge was issued to 0 users.
+Processing badge "Présenter les résultats d'une analyse du besoin de formation"...
+...badge was issued to 0 users.
+Processing badge "Rapport ou vidéo de synthèse"...
+...badge was issued to 0 users.
+Processing badge "J'ai évalué les effets d'une formation"...
+...badge was issued to 0 users.
+Processing badge "Badge Formation auxiliaires d'enseignement à l'UQAM"...
+...badge was issued to 0 users.
+Processing badge "Réseautage"...
+...badge was issued to 0 users.
+Processing badge "RéseautageDSR5100"...
+...badge was issued to 0 users.
+Processing badge "Chercher et questionner les concepts"...
+...badge was issued to 0 users.
+Processing badge "Recourir aux textes et analyser les passages"...
+...badge was issued to 0 users.
+Badges were issued 0 time(s).
+... used 316 dbqueries
+... used 0.2286810874939 seconds
+Scheduled task complete: Délivrer des badges (core\task\badges_cron_task)
+Execute scheduled task: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+... started 15:01:30. Current memory use 80.6 Mo.
+... used 0 dbqueries
+... used 0.002547025680542 seconds
+Scheduled task complete: Processus en tâche de fond pour SCORM (mod_scorm\task\cron_task)
+Execute scheduled task: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+... started 15:01:30. Current memory use 81.0 Mo.
+Verifying manual enrolment expiration...
+...manual enrolment updates finished.
+... used 0 dbqueries
+... used 0.00075101852416992 seconds
+Scheduled task complete: Tâche de synchronisation des inscriptions manuelles (enrol_manual\task\sync_enrolments)
+Execute scheduled task: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+... started 15:01:30. Current memory use 81.0 Mo.
+manual enrolment expiry notifications were already sent today at jeudi 27 avril 2023, 11:44.
+... used 0 dbqueries
+... used 0.00050902366638184 seconds
+Scheduled task complete: Envoi des notifications d'échéance des inscriptions manuelles (enrol_manual\task\send_expiry_notifications)
+Execute scheduled task: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+... started 15:01:30. Current memory use 81.1 Mo.
+Sending scheduled badge notifications.
+... used 1 dbqueries
+... used 0.00070905685424805 seconds
+Scheduled task complete: Traitement en tâche de fond de l'envoi des notifications de badge (core\task\badges_message_task)
+Execute scheduled task: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+... started 15:01:30. Current memory use 81.1 Mo.
+L'analyse de données est désactivée. Vous pouvez activer cette fonctionnalité dans « Administration du site > Fonctions avancées ».
+... used 0 dbqueries
+... used 0.0010311603546143 seconds
+Scheduled task complete: Nettoyage des analyses de données (core\task\analytics_cleanup_task)
+Execute scheduled task: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+... started 15:01:30. Current memory use 81.2 Mo.
+... used 25 dbqueries
+... used 0.5350182056427 seconds
+Scheduled task complete: Traitement en tâche de fond du module chat (mod_chat\task\cron_task)
+Execute scheduled task: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+... started 15:01:30. Current memory use 81.5 Mo.
+... used 20 dbqueries
+... used 0.063949108123779 seconds
+Scheduled task complete: Nettoyage des anciennes sessions (core\task\session_cleanup_task)
+Execute scheduled task: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+... started 15:01:31. Current memory use 82.4 Mo.
+... used 1 dbqueries
+... used 0.00069808959960938 seconds
+Scheduled task complete: Envoi des nouveaux mots de passe (core\task\send_new_user_passwords_task)
+Execute scheduled task: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+... started 15:01:31. Current memory use 82.4 Mo.
+... used 0 dbqueries
+... used 7.2002410888672E-5 seconds
+Scheduled task complete: Envoi des notifications d'échec de connexion (core\task\send_failed_login_notifications_task)
+Execute scheduled task: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+... started 15:01:31. Current memory use 82.5 Mo.
+Running auth crons if required...
+Running enrol crons if required...
+Starting activity modules
+Finished activity modules
+Starting blocks
+Finished blocks
+Starting admin reports
+Finished admin reports
+Starting course reports
+Finished course reports
+Starting gradebook plugins
+Finished gradebook plugins
+Starting admin tools
+Processing cron function for tool_objectfs...
+... started 15:01:31. Current memory use 83.4 Mo.
+RUNNING legacy cron objectfs
+done. (0 dbqueries, 0 seconds)
+Finished admin tools
+... used 5 dbqueries
+... used 0.0140221118927 seconds
+Scheduled task complete: Traitement du cron des plugins obsolètes (core\task\legacy_plugin_cron_task)
+Execute scheduled task: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+... started 15:01:31. Current memory use 83.4 Mo.
+... used 2 dbqueries
+... used 0.0015110969543457 seconds
+Scheduled task complete: Traitement en tâche de fond du carnet de notes (core\task\grade_cron_task)
+Execute scheduled task: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+... started 15:01:31. Current memory use 82.6 Mo.
+
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss skipping until jeudi 27 avril 2023, 23:44
+    http://www.salledepresse.uqam.ca/opinions-dexperts.feed ok
+    http://www.nouvelles.uqam.ca/nouvelles.feed?type=rss skipping until jeudi 27 avril 2023, 23:44
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml skipping until jeudi 27 avril 2023, 23:44
+    https://www.lapresse.ca/arts/rss ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video skipping until jeudi 27 avril 2023, 23:45
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.cndp.fr/index.php?id=2&type=100 skipping until jeudi 27 avril 2023, 23:45
+    http://www.peopleforeducation.ca/feed/?post_type=document&document-type=report ok
+    http://pol4840.uqam.ca/?feed=rss skipping until jeudi 27 avril 2023, 23:45
+    https://groups.diigo.com/group/uqam_ciena/rss ok
+    http://www.club-passion-chocolat.fr/rss/all.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.club-passion-chocolat.fr/rss/all.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.economie.gouv.qc.ca/rss/exportation.xml skipping until jeudi 27 avril 2023, 23:45
+    http://propossurlemonde.blogspot.com/feeds/posts/default ok
+    http://www.futura-sciences.com/rss/actualites.xml ok
+    http://www.lapresse.ca/rss/178.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.ledevoir.com/rss/section/societe/ethique-et-religion.xml skipping until jeudi 27 avril 2023, 23:45
+    http://www.journaldemontreal.com/actualite/societe/rss.xml ok
+    http://www.lemonde.fr/m-actu/rss_full.xml ok
+    http://www.portailrh.org/RSS/5092.aspx skipping until jeudi 27 avril 2023, 23:45
+    http://www.portailrh.org/RSS/5121.aspx skipping until jeudi 27 avril 2023, 23:45
+    http://www.portailrh.org/RSS/5169.aspx skipping until jeudi 27 avril 2023, 23:45
+    https://www.canlii.org/fr/ca/casa/rss_new.xml ok
+    http://journals.sagepub.com/action/showFeed?ui=0&mi=ehikzz&ai=2b4&jc=ccma&type=axatoc&feed=rss ok
+    http://www.inderscience.com/rss/rss.php ok
+    http://blog.thtconsulting.com/rss/ skipping until jeudi 27 avril 2023, 23:45
+    https://www.ledevoir.com/rss/section/culture.xml ok
+    http://feeds.feedburner.com/EDCProposDeLaSemaineParPeterGHall-Video skipping until jeudi 27 avril 2023, 23:45
+    http://www.international.gc.ca/commerce/rss/commerce_highlights_fra.xml ok
+    http://www.economie.gouv.qc.ca/rss/exportation.xml skipping until jeudi 27 avril 2023, 23:45
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    https://www.futura-sciences.com/rss/actualites.xml ok
+    http://radiofrance-podcast.net/podcast09/rss_11549.xml ok
+    http://feeds.feedburner.com/veilletourisme?format=xml ok
+    http://feed.exileed.com/twitter/feed/LaFab skipping until jeudi 27 avril 2023, 23:45
+    https://carrefour-education.qc.ca/rss-ressources.xml skipping until jeudi 27 avril 2023, 23:46
+    http://rss.radio-canada.ca/fils/nouvelles/nouvelles.xml skipping until jeudi 27 avril 2023, 23:46
+    https://www.notre-planete.info/news/news.xml ok
+    https://www.mediaterre.org/canada-quebec/xml/home.xml ok
+    https://reporterre.net/spip.php?page=backend-simple ok
+    https://www.anthropocenes.net/feed/articles/ ok
+    https://ici.radio-canada.ca/rss/4167 ok
+24 feeds refreshed (took 10.570127 seconds)
+... used 1 dbqueries
+... used 10.576830863953 seconds
+Scheduled task complete: Actualisation des flux RSS (block_rss_client\task\refreshfeeds)
+Execute scheduled task: Calcul des données d'achèvement (core\task\completion_regular_task)
+... started 15:01:41. Current memory use 87.5 Mo.
+Running completion_criteria_date->cron()
+Running completion_criteria_activity->cron()
+Running completion_criteria_duration->cron()
+Running completion_criteria_grade->cron()
+Running completion_criteria_course->cron()
+Aggregating completions
+... used 6 dbqueries
+... used 0.073870897293091 seconds
+Scheduled task complete: Calcul des données d'achèvement (core\task\completion_regular_task)
+Execute scheduled task: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+... started 15:01:41. Current memory use 87.8 Mo.
+... used 2 dbqueries
+... used 0.0032830238342285 seconds
+Scheduled task complete: Traitement en tâche de fond des plugins de portfolio (core\task\portfolio_cron_task)
+Execute scheduled task: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+... started 15:01:41. Current memory use 88.1 Mo.
+... used 0 dbqueries
+... used 5.6982040405273E-5 seconds
+Scheduled task complete: Traitement en tâche de fond des cron obsolètes des plugins de détection de plagiat (core\task\plagiarism_cron_task)
+Execute scheduled task: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+... started 15:01:41. Current memory use 88.1 Mo.
+Updating calendar subscription GOOGLE in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription Calendrier Google  in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+Updating calendar subscription School in course 0
+0 events were imported
+0 events were skipped
+0 events were updated
+0 events were deleted
+... used 16 dbqueries
+... used 1.0153050422668 seconds
+Scheduled task complete: Envoi des notifications de calendrier (core\task\calendar_cron_task)
+Execute scheduled task: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+... started 15:01:42. Current memory use 88.5 Mo.
+
+  Cleaning up old question previews...done.
+... used 2 dbqueries
+... used 0.74704694747925 seconds
+Scheduled task complete: Nettoyage en tâche de fond des prévisualisations de question (core\task\question_preview_cleanup_task)
+Execute scheduled task: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+... started 15:01:43. Current memory use 88.7 Mo.
+Removing old digest records from 7 days ago.
+Removed all old digest records.
+Fetching unmailed posts.
+  No posts found.
+... used 2 dbqueries
+... used 0.001939058303833 seconds
+Scheduled task complete: Envoi des messages et maintenance des forums (mod_forum\task\cron_task)
+Execute scheduled task: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+... started 15:01:43. Current memory use 88.7 Mo.
+Inbound Message not fully configured - exiting early.
+... used 0 dbqueries
+... used 0.0012938976287842 seconds
+Scheduled task complete: Récolte des courriels entrant (tool_messageinbound\task\pickup_task)
+Execute scheduled task: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+... started 15:01:43. Current memory use 88.8 Mo.
+... used 0 dbqueries
+... used 8.8930130004883E-5 seconds
+Scheduled task complete: Nettoyage des événements de la surveillance d'événements (tool_monitor\task\clean_events)
+Execute scheduled task: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+... started 15:01:43. Current memory use 88.9 Mo.
+
+  Cleaning up old question statistics cache records...done.
+... used 4 dbqueries
+... used 28.254060029984 seconds
+Scheduled task complete: Nettoyage en tâche de fond des caches de statistiques de question (core\task\question_stats_cleanup_task)
+Execute scheduled task: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+... started 15:02:12. Current memory use 89.4 Mo.
+... used 618 dbqueries
+... used 5.1552650928497 seconds
+Scheduled task complete: Traitement en tâche de fond du dépôt Dropbox (repository_dropbox\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+... started 15:02:17. Current memory use 89.8 Mo.
+... used 3 dbqueries
+... used 4.8152191638947 seconds
+Scheduled task complete: Traitement en tâche de fond du module devoir (mod_assign\task\cron_task)
+Execute scheduled task: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+... started 15:02:22. Current memory use 90.8 Mo.
+  Looking for quiz overdue quiz attempts...
+  Considered 0 attempts in 0 quizzes.
+... used 1 dbqueries
+... used 0.0015478134155273 seconds
+Scheduled task complete: Mise à jour des tentatives de test en retard (mod_quiz\task\update_overdue_attempts)
+Execute scheduled task: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+... started 15:02:22. Current memory use 90.8 Mo.
+... used 0 dbqueries
+... used 9.6797943115234E-5 seconds
+Scheduled task complete: Cron obsolète pour les rapports de tests (mod_quiz\task\legacy_quiz_reports_cron)
+Execute scheduled task: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+... started 15:02:22. Current memory use 90.8 Mo.
+... used 0 dbqueries
+... used 8.9883804321289E-5 seconds
+Scheduled task complete: Cron obsolète pour les règles d'accès aux tests (mod_quiz\task\legacy_quiz_accessrules_cron)
+Execute scheduled task: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+... started 15:02:22. Current memory use 90.9 Mo.
+ processing workshop subplugins ...
+... used 1 dbqueries
+... used 0.0032229423522949 seconds
+Scheduled task complete: Traitement en tâche de fond du module Atelier (mod_workshop\task\cron_task)
+Execute scheduled task: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+... started 15:02:22. Current memory use 90.9 Mo.
+... used 0 dbqueries
+... used 8.7976455688477E-5 seconds
+Scheduled task complete: Cron obsolète d'attribution des évaluations des ateliers (mod_workshop\task\legacy_workshop_allocation_cron)
+Execute scheduled task: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+... started 15:02:22. Current memory use 91.1 Mo.
+... used 2 dbqueries
+... used 0.0014190673828125 seconds
+Scheduled task complete: Traitement en tâche de fond de l'authentification MNET (auth_mnet\task\cron_task)
+Execute scheduled task: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+... started 15:02:22. Current memory use 91.1 Mo.
+... no workshops awaiting scheduled allocation. ... used 1 dbqueries
+... used 0.0012819766998291 seconds
+Scheduled task complete: Traitement en tâche de fond pour l'attribution automatique des évaluations (workshopallocation_scheduled\task\cron_task)
+Execute scheduled task: Synchronisation des blogs externes (core\task\blog_cron_task)
+... started 15:02:22. Current memory use 91.1 Mo.
+... used 4 dbqueries
+... used 10.355100870132 seconds
+Scheduled task complete: Synchronisation des blogs externes (core\task\blog_cron_task)
+Execute scheduled task: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+... started 15:02:32. Current memory use 91.4 Mo.
+... used 1 dbqueries
+... used 0.0015931129455566 seconds
+Scheduled task complete: Programmations d'envoi de rapports (core_reportbuilder\task\send_schedules)
+Execute scheduled task: Background processing for journal module (mod_journal\task\cron_task)
+... started 15:02:32. Current memory use 91.5 Mo.
+... used 1 dbqueries
+... used 0.024456024169922 seconds
+Scheduled task complete: Background processing for journal module (mod_journal\task\cron_task)
+Execute scheduled task: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+... started 15:02:32. Current memory use 91.5 Mo.
+Looking for quiz attempts which may need a graded notification sent...
+... used 1 dbqueries
+... used 3.1730990409851 seconds
+Scheduled task complete: Envoyer des notifications d'évaluation des tentatives (mod_quiz\task\quiz_notify_attempt_manual_grading_completed)
+Execute scheduled task: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+... started 15:02:36. Current memory use 91.7 Mo.
+... used 3 dbqueries
+... used 0.0048038959503174 seconds
+Scheduled task complete: Traiter en masse les vérifications d'accessibilité (tool_brickfield\task\bulk_process_courses)
+Execute scheduled task: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+... started 15:02:36. Current memory use 91.8 Mo.
+... used 3 dbqueries
+... used 0.0036571025848389 seconds
+Scheduled task complete: Traiter en masse la mise en cache (tool_brickfield\task\bulk_process_caches)
+Execute scheduled task: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+... started 15:02:36. Current memory use 91.8 Mo.
+... used 3 dbqueries
+... used 0.003734827041626 seconds
+Scheduled task complete: Traiter les demandes d'analyse de contenu (tool_brickfield\task\process_analysis_requests)
+Execute scheduled task: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+... started 15:02:36. Current memory use 91.6 Mo.
+No TTL caches assigned to a Redis store; nothing to do.
+... used 0 dbqueries
+... used 8.2015991210938E-5 seconds
+Scheduled task complete: Libérer la mémoire utilisée par les caches Redis expirées (cachestore_redis\task\ttl)
+Execute scheduled task: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+... started 15:02:36. Current memory use 91.6 Mo.
+No candidate objects found.
+... used 1 dbqueries
+... used 0.014057874679565 seconds
+Scheduled task complete: Object file system upload task (tool_objectfs\task\push_objects_to_storage)
+Execute scheduled task: Object status report generator task (tool_objectfs\task\generate_status_report)
+... started 15:02:36. Current memory use 91.7 Mo.
+... used 54 dbqueries
+... used 1413.5910840034 seconds
+Scheduled task complete: Object status report generator task (tool_objectfs\task\generate_status_report)
+Stopping processing of scheduled tasks as time limit has been reached.
+Stopping processing of adhoc tasks as time limit has been reached.
+Ran 0 adhoc tasks found at Thu, 27 Apr 2023 14:53:42 -0400
+Cron script completed correctly
+Cron completed at 15:26:09. Memory used 91.7 Mo.
+Execution took 1947.203152 seconds
